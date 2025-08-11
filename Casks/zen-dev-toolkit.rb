@@ -1,6 +1,6 @@
 cask "zen-dev-toolkit" do
-  version "1.0.0-beta.2"
-  sha256 "af2a6ab8cbf843369c1bcc7dd021742c68d1210eea52a673877fbecf01d85447"
+  version "1.0.0-test6"
+  sha256 "3f4789db7cc1d56c9154f3d8af3d6c8032911630e274729d8fef836c3b328bd4"
 
   url "https://github.com/dilee/zen-dev-toolkit/releases/download/v#{version}/ZenDevToolkit.zip"
   name "ZenDevToolkit"
@@ -10,7 +10,7 @@ cask "zen-dev-toolkit" do
   app "ZenDevToolkit.app"
 
   zap trash: [
-    "~/Library/Preferences/com.dilee.ZenDevToolkit.plist",
+    "~/Library/Preferences/com.luminaxa.ZenDevToolkit.plist",
     "~/Library/Application Support/ZenDevToolkit",
   ]
 end
