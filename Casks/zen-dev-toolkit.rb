@@ -1,6 +1,6 @@
 cask "zen-dev-toolkit" do
-  version "1.0.0-beta.6"
-  sha256 "c85dc2c48c4345639c14e490babf6b0ccbdcd0941259d56b04c44afd3a8e4701"
+  version "1.0.0-beta.7"
+  sha256 "07e55122a191e744496e7e719302ba797722bad44da1347c14902f5616045907"
 
   url "https://github.com/dilee/zen-dev-toolkit/releases/download/v#{version}/ZenDevToolkit.zip"
   name "ZenDevToolkit"
